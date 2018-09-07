@@ -1,35 +1,51 @@
 @import "variables";
 @import "mixins";
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
-.logo{
-  padding-top: 30px;
+.logo {
+  // padding-top: 30px;
 }
-.header{
+.header {
   width:100%;
   background-color: $steamGrey;
-  height: 104px;
-
-}
-.header-content{
-display: flex;
-justify-content:space-between;
-width: 940px;
-}
-.navigation{
   display:flex;
+  justify-content: center;
+}
+.header-content {
+  height: 104px;
+  display: flex;
+  width: 940px;
+  align-items:center;
+  justify-content: space-between;
+}
+.navigation {
+  display:flex;
+  align-items:center;
   text-transform: uppercase;
-  p{
+  margin-left:10px;
+  p {
     padding:7px;
   }
 }
-body{
+.actions {
+  display:flex;
+  // jusity-self:flex-end;
+  align-self: flex-start;
+  font-size:11px;
+  p {
+    padding: 4px;
+  }
+}
+body {
   background-color: $steamBlue;
   color:$steamText;
   font-family: "Motiva Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+.leftSide {
+  display:flex;
 }

@@ -3,28 +3,38 @@
   margin: 0;
 }
 
-.logo {
-  padding-top: 30px;
-}
-
 .header {
   width: 100%;
   background-color: #171a21;
-  height: 104px;
+  display: flex;
+  justify-content: center;
 }
 
 .header-content {
+  height: 104px;
   display: flex;
-  justify-content: space-between;
   width: 940px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation {
   display: flex;
+  align-items: center;
   text-transform: uppercase;
+  margin-left: 10px;
 }
 .navigation p {
   padding: 7px;
+}
+
+.actions {
+  display: flex;
+  align-self: flex-start;
+  font-size: 11px;
+}
+.actions p {
+  padding: 4px;
 }
 
 body {
@@ -33,6 +43,10 @@ body {
   font-family: "Motiva Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+
+.leftSide {
+  display: flex;
 }
 
 /*# sourceMappingURL=output.css.map */
