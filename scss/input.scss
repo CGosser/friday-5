@@ -49,3 +49,20 @@ body {
 .leftSide {
   display:flex;
 }
+.pageContainer{
+  display:flex;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content{
+  display:flex;
+  flex-direction: column;
+}
+.contentbox{
+  display:block;
+  height:353px;
+  width: 616px;
+}

@@ -49,4 +49,13 @@ body {
   display: flex;
 }
 
+.pageContainer {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=output.css.map */
