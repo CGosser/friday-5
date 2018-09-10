@@ -67,14 +67,12 @@ body {
   display: flex;
   justify-content: space-between;
   width: 940px;
-  border-style: solid;
-  border-color: red;
 }
 
 .browseBtn {
   height: 58px;
   width: 226px;
-  background-color: red;
+  background-image: url("https://steamstore-a.akamaihd.net/public/images/v6/home/background_spotlight.jpg");
 }
 
 /*# sourceMappingURL=output.css.map */
