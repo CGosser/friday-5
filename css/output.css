@@ -58,4 +58,23 @@ body {
   flex-direction: column;
 }
 
+.page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentbox {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  border-style: solid;
+  border-color: red;
+}
+
+.browseBtn {
+  height: 58px;
+  width: 226px;
+  background-color: red;
+}
+
 /*# sourceMappingURL=output.css.map */

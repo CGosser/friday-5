@@ -5,13 +5,10 @@
   padding: 0;
   margin: 0;
 }
-.logo {
-  // padding-top: 30px;
-}
 .header {
   width:100%;
   background-color: $steamGrey;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 .header-content {
@@ -28,6 +25,7 @@
   margin-left:10px;
   p {
     padding:7px;
+
   }
 }
 .actions {
@@ -47,10 +45,10 @@ body {
   font-weight: 400;
 }
 .leftSide {
-  display:flex;
+  display :flex;
 }
 .pageContainer{
-  display:flex;
+  display: flex;
 }
 .sidebar{
   display: flex;
@@ -62,7 +60,14 @@ body {
   flex-direction: column;
 }
 .contentbox{
-  display:block;
-  height:353px;
-  width: 616px;
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  border-style:solid;
+  border-color: red;
+}
+.browseBtn{
+height: 58px;
+width: 226px;
+background-color: red;
 }
