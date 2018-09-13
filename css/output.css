@@ -45,17 +45,11 @@ body {
   font-weight: 400;
 }
 
-.leftSide {
-  display: flex;
-}
-
-.pageContainer {
-  display: flex;
-}
-
 .sidebar {
   display: flex;
   flex-direction: column;
+  position: relative;
+  float: left;
 }
 
 .page-content {
@@ -73,6 +67,7 @@ body {
   height: 58px;
   width: 226px;
   background-image: url("https://steamstore-a.akamaihd.net/public/images/v6/home/background_spotlight.jpg");
+  color: #66c0f4;
 }
 
 /*# sourceMappingURL=output.css.map */

@@ -30,7 +30,6 @@
 }
 .actions {
   display:flex;
-  // jusity-self:flex-end;
   align-self: flex-start;
   font-size:11px;
   p {
@@ -44,15 +43,13 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-.leftSide {
-  display :flex;
-}
-.pageContainer{
-  display: flex;
-}
+
+
 .sidebar{
   display: flex;
   flex-direction: column;
+  position: relative;
+  float: left;
 }
 
 .page-content{
@@ -63,7 +60,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 940px;
-}
+} 
 .browseBtn{
 height: 58px;
 width: 226px;
