@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-.header-content {
+.headerContent {
   height: 104px;
   display: flex;
   width: 940px;
@@ -45,19 +45,19 @@ body {
   font-weight: 400;
 }
 
-.sidebar {
+.sideBar {
   display: flex;
   flex-direction: column;
   position: relative;
   float: left;
 }
 
-.page-content {
+.pageContent {
   display: flex;
   flex-direction: column;
 }
 
-.contentbox {
+.contentBox {
   display: flex;
   justify-content: space-between;
   width: 940px;
