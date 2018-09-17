@@ -62,8 +62,13 @@ body {
 
 .pageContainer {
   width: 940px;
-  margin-left: 234px;
+  margin-left: 15%;
   margin-top: 32px;
+}
+@media screen and (max-width: 1224px) {
+  .pageContainer {
+    margin-left: 0;
+  }
 }
 
 .sideBar {
@@ -99,6 +104,11 @@ body {
   flex-direction: column;
   position: relative;
   margin-left: 234px;
+}
+@media screen and (max-width: 1224px) {
+  .pageContent {
+    margin-left: 0;
+  }
 }
 .pageContent h2 {
   font-family: "motiva sans", sans-serif;
