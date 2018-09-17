@@ -1,3 +1,7 @@
+@column {
+  display: flex;
+  flex-direction: column;
+}
 * {
   padding: 0;
   margin: 0;
@@ -90,12 +94,10 @@ body {
 }
 
 .pageContent {
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  @column position: relative;
   margin-left: 234px;
 }
-.pageContent h1 {
+.pageContent h2 {
   font-family: "motiva sans", sans-serif;
   text-transform: uppercase;
   font-size: 17px;
@@ -103,6 +105,7 @@ body {
   letter-spacing: 2px;
   font-weight: 400;
   padding-top: 40px;
+  color: white;
 }
 
 .storeNavigation {
