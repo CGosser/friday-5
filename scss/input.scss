@@ -7,7 +7,7 @@
 }
 
 .header {
-  width:100%;
+  width: 100%;
   background-color: $steamGrey;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
   height: 104px;
   display: flex;
   width: 940px;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
 }
 .leftSide {
@@ -25,8 +25,8 @@
 }
 
 .navigation {
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   text-transform: uppercase;
   margin-left:10px;
   p {
@@ -35,9 +35,9 @@
 }
 
 .actions {
-  display:flex;
+  display: flex;
   align-self: flex-start;
-  font-size:11px;
+  font-size: 11px;
   margin-top: 6px;
   p {
     padding: 4px;
@@ -62,37 +62,61 @@ body {
 .pageContainer{
   width: 940px;
   margin-left: 234px;
+  margin-top: 32px;
 }
 .sideBar{
   display: flex;
   flex-direction: column;
   position: absolute;
   img{
-    width:210px;
+    width: 210px;
   }
   h1{
-    font-size:11px;
+    font-size: 11px;
     font-weight: lighter;
     line-height: 16px;
     text-transform: uppercase;
     margin-top: 7px;
   }
   a{
-    color:$steamBtnTxt;
-    font-size:13px;
-    text-decoration:none;
-    margin-top:7px;
+    color: $steamBtnTxt;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 7px;
     line-height: 16px;
   }
 }
 
-.pageContent{
+.pageContent {
   display:flex;
   flex-direction: column;
-  position:relative;
-  margin-left:234px;
+  position: relative;
+  margin-left: 234px;
+  h1{
+    font-family:"motiva sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: $steamText;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-top: 40px;
+  }
 }
-
+.storeNavigation{
+  display: flex;
+  background-color: $steamLightBlue;
+  width: 940px;
+  p{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-style: solid;
+    border-color: $steamGrey;
+    border-width: 1px;
+    border-left: 0px;
+    padding-left: 15px;
+    padding: 7px;
+  }
+}
 .contentBox{
   display: flex;
   justify-content: space-between;
@@ -100,8 +124,8 @@ body {
 }
 
 .browseBtn{
-height: 58px;
-width: 226px;
-background-image: url("https://steamstore-a.akamaihd.net/public/images/v6/home/background_spotlight.jpg");
-color: $steamBtnTxt;
+  height: 58px;
+  width: 226px;
+  background-image: url("https://steamstore-a.akamaihd.net/public/images/v6/home/background_spotlight.jpg");
+  color: $steamBtnTxt;
 }

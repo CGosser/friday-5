@@ -63,6 +63,7 @@ body {
 .pageContainer {
   width: 940px;
   margin-left: 234px;
+  margin-top: 32px;
 }
 
 .sideBar {
@@ -93,6 +94,31 @@ body {
   flex-direction: column;
   position: relative;
   margin-left: 234px;
+}
+.pageContent h1 {
+  font-family: "motiva sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #b8b6b4;
+  letter-spacing: 2px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+
+.storeNavigation {
+  display: flex;
+  background-color: rgba(62, 126, 167, 0.8);
+  width: 940px;
+}
+.storeNavigation p {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-style: solid;
+  border-color: #171a21;
+  border-width: 1px;
+  border-left: 0px;
+  padding-left: 15px;
+  padding: 7px;
 }
 
 .contentBox {
