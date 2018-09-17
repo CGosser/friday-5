@@ -73,6 +73,20 @@ body {
 .sideBar img {
   width: 210px;
 }
+.sideBar h1 {
+  font-size: 11px;
+  font-weight: lighter;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+.sideBar a {
+  color: #66c0f4;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 7px;
+  line-height: 16px;
+}
 
 .pageContent {
   display: flex;
