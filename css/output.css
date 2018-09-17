@@ -41,9 +41,6 @@
 .actions p {
   padding: 4px;
 }
-.actions p:after {
-  content: "|";
-}
 
 .installButton {
   background-color: #5c7e10;
@@ -68,6 +65,9 @@ body {
   flex-direction: column;
   position: relative;
   float: left;
+}
+.sideBar img {
+  width: 210px;
 }
 
 .pageContent {
