@@ -22,7 +22,7 @@
 }
 
 .leftSide {
-  display:flex;
+  display: flex;
 }
 
 .navigation {
@@ -127,6 +127,28 @@ body {
   display: flex;
   justify-content: space-between;
   width: 940px;
+  text-transform: capitalize;
+}
+.gameInfo{
+  background-image: url("https://steamstore-a.akamaihd.net/public/images/v6/home/background_maincap_2.jpg");
+}
+
+.gameName{
+  font-size: 24px;
+  font-weight:300;
+  color: white;
+}
+
+.samplePics {
+  display:flex;
+  flex-wrap:wrap;
+  img{
+    width:162px;
+  }
+}
+
+.featured {
+
 }
 
 .browseBtn {
