@@ -18,6 +18,10 @@
   justify-content: space-between;
 }
 
+.leftSide {
+  display: flex;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -32,9 +36,23 @@
   display: flex;
   align-self: flex-start;
   font-size: 11px;
+  margin-top: 6px;
 }
 .actions p {
   padding: 4px;
+}
+.actions p:after {
+  content: "|";
+}
+
+.installButton {
+  background-color: #5c7e10;
+  color: #e5e4dc;
+  margin-right: 3px;
+}
+.installButton p {
+  padding-left: 35px;
+  padding-right: 9px;
 }
 
 body {

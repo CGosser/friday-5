@@ -8,6 +8,9 @@
 
 _This is a page trying to copy the look of steams front page to practice sass and css flexboxes_
 
+## Images of site and site it is copying
+
+
 ## Setup/Installation Requirements
 
 * _download github repository_
@@ -15,7 +18,7 @@ _This is a page trying to copy the look of steams front page to practice sass an
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place.}_
 
 ## Support and contact details
 

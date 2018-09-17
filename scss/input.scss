@@ -20,6 +20,9 @@
   align-items:center;
   justify-content: space-between;
 }
+.leftSide {
+  display:flex;
+}
 
 .navigation {
   display:flex;
@@ -28,7 +31,6 @@
   margin-left:10px;
   p {
     padding:7px;
-
   }
 }
 
@@ -36,11 +38,20 @@
   display:flex;
   align-self: flex-start;
   font-size:11px;
+  margin-top: 6px;
   p {
     padding: 4px;
   }
 }
-
+.installButton {
+  background-color: $steamInstallBtn;
+  color: $steamInstallBtnTxt;
+  margin-right: 3px;
+  p {
+    padding-left: 35px;
+    padding-right: 9px;
+  }
+}
 body {
   background-color: $steamBlue;
   color:$steamText;
